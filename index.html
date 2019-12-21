@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+	<div class="container-fluid">
+	  <a class="navbar-brand" href="#">Start Bootstrap</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+  	</div>
+ 	 </nav>
+
+<!--- Image Slider -->
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block img-fluid" src="img/background.png" alt="First slide">
+      <div class="carousel-caption">
+      	<h1 class="display-2">WELCOME</h1>
+      	<h3>Future Web developer</h3>
+      	<button type="button" class="btn btn-outline-light btn-lg">Sign In</button>
+      	<button type="button" class="btn btn-primary btn-lg">Register</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid" src="img/background2.png" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid" src="img/background3.png" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+<!--- Jumbotron -->
+<div class="container-fluid">
+	<div class="row jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10 text-center">
+			<p class="lead">Learn more about how to create a simple and beautiful website from the beginning with bootstrap 4.In this website, you can easily learn to write a code step by step with explanation of each function.We promise to you, that you will learn everything inside this course. </p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+			<a href="google.com"><button type="button" class="btn btn-outline-secondary btn-lg">Get Started</button></a>
+		</div>
+	</div>
+</div>
+<!--- Welcome Section -->
+<div class="container-fluid padding ">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Built with Ease</h1>
+			<hr>
+		</div>
+		<div class="col-12">
+			<p class="lead">Learn more about how to create a simple and beautiful website from the beginning with bootstrap 4.In this website, you can easily learn to write a code step by step with explanation of each function.We promise to you, that you will learn everything inside </p> 	
+		</div>
+	</div>
+</div>
+
+<!--- Three Column Section -->
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+			<i class="fab fa-html5"></i>
+			<h3 class="html">HTML5</h3>
+			<p>HyperText Markup Language</p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+			<i class="fab fa-css3-alt"></i>
+			<h3 class="html">CSS3</h3>
+			<p>Cascaded Style Sheet 3</p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+			<i class="fab fa-js-square"></i>
+			<h3 class="html">Javascript</h3>
+			<p>Top 2 Programming Language</p>
+		</div>
+	</div>
+</div>
+
+
+<!--- Two Column Section -->
+<div class="container-fluid">
+	<div class="row padding">
+		<div class="col-sm-12 col-md-6 col-lg-6">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	
+			</p>
+		</div>
+			<div class="col-sm-12 col-md-6 col-lg-6">
+			<img src="img/desk.png" class="img-fluid">
+		</div>
+	</div>
+</div>
+
+
+<!--- Fixed background -->
+<figure>
+	<div class="fixed-wrap">
+		<div id="fixed">
+
+		</div>
+		
+	</div>
+</figure>
+
+<!--- Emoji Section -->
+<button class="fun" data-toggle="collapse" data-target="#emoji">CLICK</button>
+<div id="emoji" class="collapse">
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-xs-3 col-sm-6 col-md-3">
+				<img class="gif" src="img/gif/chicken.gif">
+			</div>
+			<div class="col-xs-3 col-sm-6 col-md-3">
+				<img class="gif" src="img/gif/chicken.gif">
+			</div>
+			<div class="col-xs-3 col-sm-6 col-md-3">
+				<img class="gif" src="img/gif/chicken.gif">
+			</div>
+			<div class="col-xs-3 col-sm-6 col-md-3">
+				<img class="gif" src="img/gif/chicken.gif">
+			</div>
+		</div>
+	</div>
+</div>
+
+
+  
+<!--- Meet the team -->
+
+
+<!--- Cards -->
+<div class="container-fluid padding">
+	<div class="row padding">
+	<div class="col-sm-12 col-md-6 col-lg-4">
+	  	<div class="card">
+	    <img class="card-img-top" src="img/team1.png" alt="Card image">
+	    <div class="card-body">
+	      <h4 class="card-title">John Doe</h4>
+	      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+	      <a href="#" class="btn btn-primary">See Profile</a>
+	    </div>
+		</div>
+	</div>
+	<div class="col-sm-12 col-md-6 col-lg-4">
+	  	<div class="card">
+	    <img class="card-img-top" src="img/team2.png" alt="Card image">
+	    <div class="card-body">
+	      <h4 class="card-title">John Doe</h4>
+	      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+	      <a href="#" class="btn btn-primary">See Profile</a>
+	    </div>
+		</div>
+	</div>
+	<div class="col-sm-12 col-md-6 col-lg-4">
+	  	<div class="card">
+	    <img class="card-img-top" src="img/team3.png" alt="Card image">
+	    <div class="card-body">
+	      <h4 class="card-title">John Doe</h4>
+	      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+	      <a href="#" class="btn btn-primary">See Profile</a>
+	    </div>
+		</div>
+	</div>
+	</div>
+</div>
+
+
+<!--- Two Column Section -->
+<div class="container-fluid">
+	<div class="row padding">
+		<div class="col-sm-12 col-md-6 col-lg-6">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	
+			</p>
+		</div>
+			<div class="col-sm-12 col-md-6 col-lg-6">
+			<img src="img/desk.png" class="img-fluid">
+		</div>
+	</div>
+</div>
+
+<!--- Connect -->
+
+
+<!--- Footer -->
+<footer>
+	<div class="container-fluid">
+		<div class="row padding text-center">
+			<div class="col-md-4 col-lg-4">
+				<img src="img/w3newbie.png">
+				<hr class="light">
+				<p>09123456789</p>
+				<p>easytutorial@gmail.com</p>
+			</div>
+			<div class="col-md-4 col-lg-4">
+				<hr class="light">
+				<h3>Store Hours</h3>
+				<hr class="light">
+				<p>Monday-Friday:8:00 A.M - 5:00 P.M</p>
+			</div>
+			<div class="col-md-4 col-lg-4">
+				<hr class="light">
+				<h3>Store Hours</h3>
+				<hr class="light">
+				<p>Monday-Friday:8:00 A.M - 5:00 P.M</p>
+			</div>
+			<div class="col-12">
+				<hr class="light">
+				<p>@copy wed 2019</p>
+			</div>
+			
+		</div>
+		
+	</div>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
